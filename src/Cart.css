@@ -1,0 +1,118 @@
+/* Cart.css */
+.cart-container {
+    padding: 20px;
+    text-align: center;
+}
+
+.cart-container h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.cart-item-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    width: 180px; /* Set the card width */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align content */
+    text-align: center;
+}
+
+.cart-item-img {
+    width: 100%; /* Full width of the card */
+    height: 180px; /* Adjust height as needed */
+    object-fit: contain;
+    display: block;
+    margin: auto;
+}
+
+.cart-item-body {
+    text-align: center;
+    padding: 10px;
+}
+
+.cart-item-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.cart-item-text {
+    font-size: 1rem;
+    color: #555;
+}
+
+.cart-item-buttons {
+    margin-top: 10px;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    margin-right: 5px;
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    margin-right: 5px;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 4px;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+}
+
+.total-cost {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.buy-now-btn {
+    background-color: #28a745;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1.25rem;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+.buy-now-btn:hover {
+    background-color: #218838;
+}
+
+#cartitemicon {
+    color: #28a745;
+}
+
+#Shopingcartpage {
+    color: #007bff;
+}
+
+#Shopingcartpagecost {
+    color: blueviolet;
+}

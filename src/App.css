@@ -1,0 +1,125 @@
+/* Ensures no extra margin or padding */
+#root {
+  background-color: #aab1c38f;  /*#5B58E */
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* nav bar css starting */
+.navbar {
+  margin: 0;
+  padding: 0;
+}
+
+#navbarbg {
+  background: #305eb3;
+}
+
+/* navbar hover */
+.nav-link:hover {
+  color: #fff; 
+  background-color: #b6bd7a; 
+  border-radius: 5px; 
+}
+
+.dropdown-item, #dropdown-basic{
+  background-color:antiquewhite; 
+  color: #ad3838; 
+}
+.dropdown-menu:hover {
+  color:#fff;
+}
+/* search bar right side */
+.navbar-collapse {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#mainlogo {
+  width: 60px;
+}
+
+/* image css starting */
+#image-container {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  padding: 1rem;
+}
+
+.image-item {
+  margin-right: 1.5rem;
+  margin-left: 1.45rem;
+  text-align: center;
+  min-width: 90px;
+  transition: transform 0.3s;
+}
+
+.image {
+  border-radius: 50px;
+  width: 100px;
+  height: 90px;
+  object-fit: cover;
+}
+
+.image-item:hover {
+  transform: scale(1.05);
+}
+
+.image-title {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #efe5e5; 
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.image-item a {
+  text-decoration: none;
+}
+
+.image-item a:hover .image-title {
+  color: #007bff; 
+}
+
+/* carousel css starting */
+#custom-carousel{
+  margin: 1.5rem;
+}
+.carousel-container {
+  width: 100%;
+  margin-top: 20px;
+  height:min-content;
+}
+#car{
+  height: 450px;
+}
+#carheader{
+  color: rgb(255, 2, 2);
+  font-family: 'Courier New', Courier, monospace;
+  text-decoration: dotted;
+  text-shadow: #fff;
+  text-decoration-color: #DFF611;
+  font-weight:bolder;
+}
+
+#pcar{
+  color: #DFF611;
+  font-weight:bolder;
+}
+
+
+#cartsimbol{
+  color: aliceblue;
+  padding-left: 5px;
+}
+
+#time{
+  color: #DFF611;
+  display: inline;
+}
